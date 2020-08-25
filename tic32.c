@@ -123,7 +123,6 @@ static void tic32_char(uint8_t x, uint8_t y, uint8_t sign)
             if(((font5x7[5*(sign-32)+i])>>(7-k))&1) tic32_pixel(x+i, y-k);
             }
         }
-
     }
 
 
@@ -217,6 +216,4 @@ void tic32_line(int8_t x1, int8_t y1, int8_t x2, int8_t y2)  //x: 0..127  //y: 0
             }
         }
     }
-
-
 

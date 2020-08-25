@@ -4,9 +4,6 @@
 // Microchip XC8 Compiler v1.33
 //
 // 25-Aug-2020
-// i2c.h
-//
-// 25-Aug-2020
 
 
 #ifndef I2C_H
